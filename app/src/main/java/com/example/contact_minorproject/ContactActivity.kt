@@ -21,6 +21,7 @@ class ContactActivity : AppCompatActivity() {
               viewModel.insertContact(contact)
             val intent = Intent(this@ContactActivity , MainActivity::class.java)
             startActivity(intent)
+            // open new Activity
         }
     }
 }
