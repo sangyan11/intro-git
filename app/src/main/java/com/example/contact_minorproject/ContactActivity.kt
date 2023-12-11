@@ -22,6 +22,7 @@ class ContactActivity : AppCompatActivity() {
             val intent = Intent(this@ContactActivity , MainActivity::class.java)
             startActivity(intent)
             // open new Activity
+            // new comment 
         }
     }
 }
